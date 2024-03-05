@@ -24,9 +24,7 @@
     <!-- ------javaScript----- -->
     <script src="app.js" defer></script>
 
-    <title>Frontend Mentor | News homepage</title>
-
-  
+    <title>News homepage</title>
   </head>
   <body class="body">
     <header class="header wrapper">
@@ -40,31 +38,30 @@
         />
       </a>
       <div>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list-item"><a href="#"> Home</a></li>
-          <li class="nav__list-item"><a href="#"> New</a></li>
-          <li class="nav__list-item"><a href="#"> Popular</a></li>
-          <li class="nav__list-item"><a href="#"> Trending</a></li>
-          <li class="nav__list-item"><a href="#"> Categories</a></li>
-        </ul>
-      </nav>
-      <div class="menu-wrapper">
-        <img src="assets/images/icon-menu.svg" alt="" class="menu" />
-        <img src="assets/images/icon-menu-close.svg" alt="" class="close" />
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item"><a href="#"> Home</a></li>
+            <li class="nav__list-item"><a href="#"> New</a></li>
+            <li class="nav__list-item"><a href="#"> Popular</a></li>
+            <li class="nav__list-item"><a href="#"> Trending</a></li>
+            <li class="nav__list-item"><a href="#"> Categories</a></li>
+          </ul>
+        </nav>
+        <div class="menu-wrapper">
+          <img src="assets/images/icon-menu.svg" alt="" class="menu" />
+          <img src="assets/images/icon-menu-close.svg" alt="" class="close" />
+        </div>
       </div>
-    </div>
     </header>
+    
     <main>
       <article class="wrapper grid">
+        <!-- -----main----- -->
         <section class="main">
-        
           <picture class="main__picture">
             <source
               media="(min-width: 43.75em)"
-              srcset="
-              assets/images/image-web-3-desktop.jpg
-              "
+              srcset="assets/images/image-web-3-desktop.jpg"
               width="730"
               height="300"
             />
@@ -89,6 +86,7 @@
           </div>
         </section>
 
+        <!-- -----new----- -->
         <section class="new">
           <h2 class="new__title">New</h2>
           <article class="new__post">
@@ -119,6 +117,7 @@
           </article>
         </section>
 
+        <!-- ----blog----- -->
         <section class="blog">
           <article class="blog__item">
             <img
@@ -162,12 +161,11 @@
       </article>
     </main>
 
-  
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">@yohanne-Te</a>.
     </div>
-  </body> 
+  </body>
 </html>

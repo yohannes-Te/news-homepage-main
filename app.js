@@ -10,6 +10,7 @@ function clicked() {
   Close.classList.add("close--show");
   body.classList.add('body--no-scroll')
   body.classList.add("backdrop");
+
 }
 
 function back() {
